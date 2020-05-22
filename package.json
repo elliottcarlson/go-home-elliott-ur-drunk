@@ -1,0 +1,41 @@
+{
+    "name": "BACTrackJS",
+    "version": "1.0.0",
+    "description": "HTML Bluetooth API for BACTrack Breathalyzer Devices",
+    "main": "dist/index.js",
+    "scripts": {
+        "playground": "parcel serve playground/index.html -d playground/build --open",
+        "build": "parcel build --global BACTrackJS --experimental-scope-hoisting src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elliottcarlson/go-home-elliott-ur-drunk.git"
+    },
+    "author": "Elliott Carlson <x@sublim.nl>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/elliottcarlson/go-home-elliott-ur-drunk/issues"
+    },
+    "homepage": "https://github.com/elliottcarlson/go-home-elliott-ur-drunk#readme",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-1": "^6.24.1",
+        "immer": "^6.0.6",
+        "parcel-bundler": "^1.12.4",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-redux": "^7.2.0",
+        "redux": "^4.0.5",
+        "redux-saga": "^1.1.3",
+        "semantic-ui-css": "^2.4.1",
+        "semantic-ui-react": "^0.88.2",
+        "typescript": "^3.8.3",
+        "use-immer": "^0.4.0"
+    },
+    "dependencies": {
+        "css": "^2.2.4",
+        "regenerator-runtime": "^0.13.5"
+    }
+}

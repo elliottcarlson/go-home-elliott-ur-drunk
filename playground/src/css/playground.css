@@ -1,0 +1,40 @@
+textarea {
+  background-color: #F0F0F0;
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.indicator {
+  background: #fffaf3!important;
+  color: #573a08!important;
+}
+
+.indicator::before {
+  content: "N/A";
+}
+
+.indicator[data-value="true"] {
+  background: #fcfff5!important;
+  color: #2c662d!important;
+}
+
+.indicator[data-value="true"]::before {
+  content: "True";
+}
+
+.indicator[data-value="false"] {
+  background: #fff6f6!important;
+  color: #9f3a38!important;
+}
+
+.indicator[data-value="false"]::before {
+  content: "False";
+}
+
+.indicator[data-value="neutral"] {
+  background: #ffffff!important;
+  color: #000000!important;
+}
+
+.indicator[data-value="neutral"]::before {
+  content: "";
+}
